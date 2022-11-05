@@ -1,11 +1,10 @@
 import React from 'react';
 import { useEffect } from 'react';
-import { Link, useLocation, useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 const UserPage = () => {
-    // const {pathname} = useLocation()
     const { userId } = useParams();
-    useEffect(()=>{},[])
+    useEffect(() => {}, []);
     return (
         <>
             <div>User Page</div>
